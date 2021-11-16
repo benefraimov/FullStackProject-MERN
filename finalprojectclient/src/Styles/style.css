@@ -1,0 +1,96 @@
+/* Routers */
+
+.secondRouter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.secondRouter > div {
+  margin-left: 10px;
+}
+
+.secondRouter > div > .link {
+  background-color: #494645;
+  color: white;
+  padding: 4px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.secondRouter > div > .link:hover,
+.link:active {
+  color: rgb(41, 39, 39);
+  background-color: rgb(255, 255, 255);
+}
+
+form > input[type="submit"] {
+  cursor: pointer;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.moviesRouter {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.moviesRouter > div {
+  margin-left: 10px;
+}
+
+.moviesRouter > div > .link {
+  background-color: #494645;
+  color: white;
+  padding: 4px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.moviesRouter > div > .link:hover,
+.link:active {
+  color: rgb(41, 39, 39);
+  background-color: rgb(255, 255, 255);
+}
+
+/* Components */
+.user {
+  border: 2px black solid;
+  width: 30%;
+  margin-top: 20px;
+}
+.membersWatched {
+  width: 100%;
+  border: 2px black solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -40px;
+}
+.movie {
+  border: 2px black solid;
+  margin-bottom: 20px;
+}
+.membersWatched > div {
+  height: 180px;
+}
+
+/* Pages */
+.allUsers {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.allMovies {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
